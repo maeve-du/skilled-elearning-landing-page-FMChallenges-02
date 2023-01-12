@@ -359,7 +359,8 @@ button {
   .hero__data {
     max-width: 32rem;
     padding: 0;
-    padding-left: 2rem;
+    padding-left: 2.5rem;
+
   }
 
   .hero__desc {
