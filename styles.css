@@ -176,7 +176,6 @@ button {
   /* position: fixed;
   top: 0;
   left: 0; */
-  z-index: 999;
 }
 
 .nav {
@@ -192,6 +191,10 @@ button {
   display: grid;
   align-items: center;
   justify-content: center;
+}
+
+.nav__menu {
+  z-index: 999;
 }
 
 .hero-group {
@@ -215,6 +218,7 @@ button {
 .hero__figure {
   margin-top: 1rem;
   margin-bottom: -3rem;
+  /* z-index: -1; */
 }
 
 .courses {
@@ -289,6 +293,7 @@ button {
     max-width: 768px;
   }
 
+
   .hero-group {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -300,6 +305,7 @@ button {
   .hero__data {
     max-width: 32rem;
     padding: 0;
+    padding-left: 2.5rem;
   }
 
   .hero__figure {
@@ -332,7 +338,7 @@ button {
 }
 
 /* =========desktop========== */
-@media (min-width: 1000px) {
+@media (min-width: 1110px) {
 
   :root {
     --h1-xl-font-size: 3.5rem;
@@ -346,7 +352,7 @@ button {
   }
 
   .container {
-    max-width: 1110px;
+    max-width: 1190px;
   }
 
   .hero__figure {
@@ -356,6 +362,7 @@ button {
   .hero__data {
     max-width: 29rem;
     padding: 0;
+    padding-left: 2.5rem;
   }
 
   .hero__desc {
