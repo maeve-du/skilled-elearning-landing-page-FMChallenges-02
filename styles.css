@@ -289,7 +289,6 @@ button {
     max-width: 768px;
   }
 
-
   .hero-group {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -392,10 +391,6 @@ button {
 
     grid-template-columns: repeat(3, 1fr);
     gap: 5rem 1.875rem;
-  }
-
-  .card-group__item {
-    /* padding: 4rem 2rem 2.5rem 2rem; */
   }
 
   .card-group__item:nth-of-type(1) {
