@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Skilled e-learning landing page</title>
+</head>
+
+<body>
+
+  <main>
+    <header class="header">
+      <nav class="nav container section">
+        <a class="nav__logo">
+          <img src="assets/logo-dark.svg" alt="Skiller Logo">
+        </a>
+        <div class="nav__menu">
+
+          <ul class="nav__list">
+            <li class="nav__item">
+              <button class="btn">Get Started1</button>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="hero-group container">
+        <div class="hero__data">
+          <h1 class="hero__title">Maximize skill, minimize budget</h1>
+          <p class="hero__desc">
+            Our modern courses across a range of in-demand skills will give you the
+            knowledge you need to live the life you want.
+          </p>
+          <button href="#" class="btn btn__g-warm">Get Started</button>
+        </div>
+
+        <div class="hero__figure">
+          <picture>
+            <source srcset="assets/image-hero-mobile.webp 1x,
+                      assets/image-hero-mobile@2x.webp 2x"
+                    media="(max-width: 767px)">
+            <source srcset="assets/image-hero-tablet.webp 1x,
+                      assets/image-hero-tablet@2x.webp 2x"
+                    media="(max-width: 1000px)">
+            <img src="assets/image-hero-desktop.webp"
+                 alt="Hero Image" class="hero__image"
+                 srcset="assets/image-hero-desktop@2x.webp 2x">
+          </picture>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="courses">
+      <div class="card-group container section">
+        <!-- first item -->
+        <div class="card-group__item">
+          <h3 class="card-group__item__text"> Check out our most popular courses!</h3>
+        </div>
+        <!-- Animation -->
+        <div class="card-group__item">
+          <div class="card-group__item__header">
+            <img src="assets/icon-animation.svg" alt="Animation Icon " class="card-group__item__icon">
+            <h4 class="card-group__item__title">
+              Animation
+            </h4>
+            <p class="card-group__item__desc">
+              Learn the latest animation techniques to create stunning motion design and captivate your audience.
+            </p>
+          </div>
+          <div class="card-group__item__action">
+            <a href="#" class="btn__link-pink">
+              Get Started
+            </a>
+          </div>
+        </div>
+
+        <!-- Design -->
+        <div class="card-group__item">
+          <div class="card-group__item__header">
+            <img src="assets/icon-design.svg" alt="Design Icon " class="card-group__item__icon">
+            <h4 class="card-group__item__title">
+              Design
+            </h4>
+            <p class="card-group__item__desc">
+              Create beautiful, usable interfaces to help shape the future of how the web looks.
+            </p>
+          </div>
+          <div class="card-group__item__action">
+            <a href="#" class="btn__link-pink">
+              Get Started
+            </a>
+          </div>
+        </div>
+        <!-- Photography -->
+        <div class="card-group__item">
+          <div class="card-group__item__header">
+            <img src="assets/icon-photography.svg" alt="Photography Icon " class="card-group__item__icon">
+            <h4 class="card-group__item__title">
+              Photography
+            </h4>
+            <p class="card-group__item__desc">
+              Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos. Lorem
+              ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="card-group__item__action">
+            <a href="#" class="btn__link-pink">
+              Get Started
+            </a>
+          </div>
+        </div>
+        <!-- Crypto -->
+        <div class="card-group__item">
+          <div class="card-group__item__header">
+            <img src="assets/icon-crypto.svg" alt="Crypto Icon " class="card-group__item__icon">
+            <h4 class="card-group__item__title">
+              Crypto
+            </h4>
+            <p class="card-group__item__desc">
+              All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour
+              course. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, recusandae.
+            </p>
+          </div>
+          <div class="card-group__item__action">
+            <a href="#" class="btn__link-pink">
+              Get Started
+            </a>
+          </div>
+        </div>
+        <!-- Business -->
+        <div class="card-group__item">
+          <div class="card-group__item__header">
+            <img src="assets/icon-business.svg" alt="Business Icon " class="card-group__item__icon">
+            <h4 class="card-group__item__title">
+              Business
+            </h4>
+            <p class="card-group__item__desc">
+              A step-by-step playbook to help you start, scale, and sustain your business without outside investment.
+            </p>
+          </div>
+          <div class="card-group__item__action">
+            <a href="#" class="btn__link-pink">
+              Get Started
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="nav container section">
+      <div class="nav__logo">
+        <img src="assets/logo-light.svg" alt="Skilled Logo">
+      </div>
+      <div class="nav__menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <button class="nav__link btn btn__g-cold">Get Started</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
