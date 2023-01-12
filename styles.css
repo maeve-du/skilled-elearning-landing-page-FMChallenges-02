@@ -214,8 +214,7 @@ button {
 
 .hero__figure {
   margin-top: 1rem;
-  margin-bottom: -3rem;
-  /* z-index: -1; */
+  margin-bottom: -5rem;
 }
 
 .courses {
@@ -353,13 +352,14 @@ button {
   }
 
   .hero__figure {
-    height: 40rem;
+    height: 36.875rem;
+    margin: 0;
   }
 
   .hero__data {
-    max-width: 29rem;
+    max-width: 32rem;
     padding: 0;
-    padding-left: 2.5rem;
+    padding-left: 2rem;
   }
 
   .hero__desc {
@@ -377,19 +377,19 @@ button {
 
   .hero__image {
     position: absolute;
-    top: -18rem;
-    left: 30rem;
+    top: -19rem;
+    left: 31rem;
   }
 
   .card-group {
-    padding-top: 5.3rem;
+    /* padding-top: 7.9375rem; */
 
     grid-template-columns: repeat(3, 1fr);
     gap: 5rem 1.875rem;
   }
 
   .card-group__item {
-    padding: 4rem 2rem 2.5rem 2rem;
+    /* padding: 4rem 2rem 2.5rem 2rem; */
   }
 
   .card-group__item:nth-of-type(1) {
