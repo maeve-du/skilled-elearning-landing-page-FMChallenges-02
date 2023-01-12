@@ -292,31 +292,36 @@ button {
 
   .hero-group {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     align-items: center;
     column-gap: 0;
     position: relative;
   }
 
   .hero__data {
-    max-width: 32rem;
+    max-width: 28rem;
     padding: 0;
     padding-left: 2.5rem;
+  }
+
+  .hero__desc {
+    margin-top: 1.5625rem;
   }
 
   .hero__figure {
     margin: 0;
     height: 27rem;
+    height: 23.625rem;
   }
 
   .hero__image {
     position: absolute;
-    top: -13rem;
-    left: 20rem;
+    top: -13.5rem;
+    left: 22.375rem;
   }
 
   .card-group {
-    padding-top: 6.5rem;
+    padding-top: 7.5rem;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -360,7 +365,6 @@ button {
     max-width: 32rem;
     padding: 0;
     padding-left: 2.5rem;
-
   }
 
   .hero__desc {
@@ -378,12 +382,13 @@ button {
 
   .hero__image {
     position: absolute;
-    top: -19rem;
-    left: 31rem;
+    width: 80%;
+    top: -12.5rem;
+    left: 37rem;
   }
 
   .card-group {
-    /* padding-top: 7.9375rem; */
+    padding-top: 5.9375rem;
 
     grid-template-columns: repeat(3, 1fr);
     gap: 5rem 1.875rem;
